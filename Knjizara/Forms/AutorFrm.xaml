@@ -1,0 +1,21 @@
+﻿<Window x:Class="Knjizara.Forms.AutorFrm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Knjizara.Forms"
+        mc:Ignorable="d"
+        Title="Autor" Height="199" Width="296">
+    <Grid Margin="0,0,0,7">
+        <Label Content="Ime" HorizontalAlignment="Left" Margin="30,20,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtIme" HorizontalAlignment="Left" Margin="130,24,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Prezime" HorizontalAlignment="Left" Margin="30,65,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPrezime" HorizontalAlignment="Left" Margin="130,69,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        
+        <Button x:Name="btnSacuvaj" Content="Sacuvaj" Width="75" HorizontalAlignment="Left" Margin="30,120,0,0" VerticalAlignment="Top" Click="btnSacuvaj_Click"/>
+        <Button x:Name="btnOtkazi" Content="Otkazi" Width="75" HorizontalAlignment="Left" Margin="180,120,0,0" VerticalAlignment="Top" Click="btnOtkazi_Click"/>
+
+
+    </Grid>
+</Window>
